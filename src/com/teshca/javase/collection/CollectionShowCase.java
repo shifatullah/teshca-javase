@@ -158,11 +158,11 @@ public class CollectionShowCase {
 		stringArrayDeque.add("Nine");
 		System.out.println("Added four objects in ArrayDeque: " + stringArrayDeque + " - Size: " + stringArrayDeque.size());
 		
-		// Push
+		// Poll
 		String pollObject = stringArrayDeque.poll();
 		System.out.println("After poll() call on ArrayDeque: " + stringArrayDeque + " poll object is: " + pollObject + " - Size: " + stringArrayDeque.size());
 		
-		// Poll
+		// Push
 		stringArrayDeque.push("Ten");
 		System.out.println("After push(\"Ten\") call on ArrayDeque: " + stringArrayDeque + " - Size: " + stringArrayDeque.size());
 	}
